@@ -1,0 +1,32 @@
+﻿生成启动时间为 2015/6/4 23:39:18。
+     1>项目“F:\GetGLStart\trunk\GLStudying\GL2\GL2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\3D_Tech\OpenGL\oglpg-8th-edition\oglpg-8th-edition\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\getglstart\trunk\glstudying\gl2\main.cpp(29): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GetGLStart\trunk\GLStudying\Debug\GL2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\3D_Tech\OpenGL\oglpg-8th-edition\oglpg-8th-edition\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\GetGLStart\trunk\GLStudying\Debug\GL2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GetGLStart\trunk\GLStudying\Debug\GL2.lib" /MACHINE:X86 Debug\LoadShaders.obj
+         Debug\main.obj
+     1>glew_static_vs2010_d.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glew_static_vs2010_d.lib(glew.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_callbacks.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_callbacks.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_cursor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_cursor.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_display.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_display.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_font.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_font.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_font_data.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_font_data.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_init.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_init.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_input_devices.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_input_devices.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_joystick.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_joystick.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_main.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_main.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_menu.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_menu.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_spaceball.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_spaceball.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_state.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_state.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_stroke_mono_roman.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_stroke_roman.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_stroke_roman.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_structure.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_structure.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static_vs2010_d.lib(freeglut_window.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static_vs2010_d.lib(freeglut_window.obj)”或在“F:\GetGLStart\trunk\GLStudying\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         GL2.vcxproj -> F:\GetGLStart\trunk\GLStudying\Debug\GL2.exe
+     1>已完成生成项目“F:\GetGLStart\trunk\GLStudying\GL2\GL2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.87
