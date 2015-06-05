@@ -2,6 +2,9 @@
 #define __VAPP_H__
 
 #include "vgl.h"
+#include <iostream>
+
+using namespace std;
 
 class VermillionApplication
 {
@@ -77,6 +80,19 @@ public:
     {
         glViewport(0, 0, width, height);
     }
+
+	void VermillionApplication::printGLinfo()                                      
+	{                                                                              
+		cout << "===============OpenGL information:==============" << endl;        
+		const GLubyte *cc = glGetString(GL_VERSION);                               
+		cout << "glVersion:" << cc << endl;                                        
+		const GLubyte *c1 = glGetString(GL_VENDOR);                                
+		cout << "glVendor:" << c1 << endl;                                         
+		const GLubyte *c2 = glGetString(GL_RENDERER);                              
+		cout << "glRenderer:" << c2 << endl;                                       
+		cout << "GLSLversion:" << glGetString(GL_SHADING_LANGUAGE_VERSION) << endl;
+		cout << "================================================" << endl;         
+	}
 };
 
 #define BEGIN_APP_DECLARATION(appclass)                     \
@@ -134,6 +150,7 @@ int main(int argc, char ** argv)                            \
     VermillionApplication * app = appclass::Create();       \
                                                             \
     app->Initialize(title);                                 \
+	app->printGLinfo();                                     \
     app->MainLoop();                                        \
     app->Finalize();                                        \
                                                             \
