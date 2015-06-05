@@ -1,7 +1,10 @@
 #version 330
 
-uniform mat4 model_matrix;
-uniform mat4 projection_matrix;
+uniform b
+{
+	mat4 model_matrix;
+	mat4 projection_matrix;
+ };
 
 layout (location = 0) in vec4 position;
 layout (location = 1) in vec4 color;
